@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    background-image: url(https://fortinoconsulting.com/wp-content/uploads/2024/08/Mountain-Serenity-at-Dawn-banner.webp);
+    background-position: center, center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 15px;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    height: 28px;
+    display: flex;
+    justify-content: left;
+    padding: 14px 1179px 6px 22px;
+}
+
+.nav-class {
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.nav-class :hover {
+    background-color: rgb(67, 154, 136);
+    
+}
+
+.button {
+    background-color: rgb(67, 154, 136);
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 20px;
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+}
+
+.button :hover {
+    color: rgb(67, 154, 136);
+    background-color: white;
+}
+
+.text {
+    text-align: center;
+    justify-content: center;
+}
+
+.first {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700px;
+    line-height: 50px;
+    font-size: 40px;
+    color: white;
+}
+
+.second {
+    font-family: "Libre Baskerville", sans-serif;
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 33px;
+    color: rgb(52, 60, 93);
+}
+
+.third {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    color: white;
+    justify-content: center;
+}
