@@ -43,5 +43,18 @@
     </div>
 
 </body>
-
+<script>
+    let teaCollection = []
+    let checkContinue = true
+    do{
+        let ask = prompt("Please enter your fav tea or if you want to stop enter stop")
+        if(ask == "stop"){
+            checkContinue = false
+        }
+        teaCollection.push(ask)
+        
+    } while(checkContinue)
+    
+    console.log(teaCollection)
+</script>
 </html>
