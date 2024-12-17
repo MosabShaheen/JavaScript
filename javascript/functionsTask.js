@@ -45,7 +45,7 @@ function orderTea(teaType){
     return tea("green tea")
  }
 
-console.log(processTeaOrder(makeTea))
+// console.log(processTeaOrder(makeTea))
   
   /* 
   5. Write a function named `createTeaMaker` that returns another function. The returned function should take one parameter, `teaType`, and return a message like `"Making green tea"`. 
@@ -58,7 +58,19 @@ console.log(processTeaOrder(makeTea))
 // Write a function stringToNumber that takes a string input 
 // and tries to convert it to a number. If the conversion fails, 
 // return "Not a number".
+function stringToNumber(str){
+  let num = Number(str)
+  if(num){
+    return num
+  }
+  else{
+    return "Not a number"
+  }
+}
 
+// console.log(stringToNumber("2342345"))
+// console.log(stringToNumber("gbcovjdof"))
+// console.log(stringToNumber("232345dvsg42345"))
 
 // Task 2:
 
@@ -80,6 +92,14 @@ console.log(processTeaOrder(makeTea))
 //  if the value is truthy in JavaScript, 
 //  or "It's falsey!" if it's falsey.
 
-const newFun =function (){
 
+let arr = [1,2,3,4]
+console.log(...arr)
+
+function addOrder(teaType){
+  return function (){
+    return `This tea ${teaType} is added in the order`
+  }
 }
+let newTea = addOrder("Green tea")
+console.log(newTea())
