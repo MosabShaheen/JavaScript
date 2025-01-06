@@ -1,3 +1,4 @@
+
 // Conditional Challanges
 
 //1. Checking if a number is greater than another number:
@@ -104,3 +105,29 @@ and `"earl grey"`.
 // }
 
 // create a for loop, add from 1 to 5 and store it in the variable 
+
+
+
+
+
+// Task 1: Simulating Asynchronous Behavior
+
+// Create a function simulateAsyncTask() that logs “Task started”, then after 2 seconds logs 
+// “Task finished”.
+
+// Use setTimeout to simulate this behaviour.
+
+
+
+// Task 2: Simulate Multiple Async Tasks with Different Delays
+
+// Create a function simulateMultipleTasks() that starts three asynchronous tasks with different delays (1 second, 2 seconds, and 3 seconds).
+
+// Each task should log "Task [n] finished" where [n] is the task number. Ensure the tasks run asynchronously.
+
+
+// Task 3: Async-Await with Promise.all
+
+// Create two functions fetchUser() and fetchPosts(), both returning promises that resolve in 1 second.
+
+// Use async-await and Promise.all to fetch both simultaneously and log the results as part of fetchAllData()

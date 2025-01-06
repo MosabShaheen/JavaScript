@@ -9,16 +9,16 @@ class Birds{
 console.log(Birds.fly());
 
 
-// let sparrow = new Birds("sparrow")
-// console.log(sparrow.fly())
+let sparrow = new Birds("sparrow")
+console.log(sparrow.fly())
 
 
 
-// class Penguin extends Birds{
-//     fly(){
-//         return`Penguin can not fly.`
-//     }
-// }
+class Penguin extends Birds{
+    fly(){
+        return`Penguin can not fly.`
+    }
+}
 
-// let penguin = new Penguin()
-// console.log(penguin.fly())
+let penguin = new Penguin()
+console.log(penguin.fly())

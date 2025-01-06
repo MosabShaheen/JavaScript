@@ -33,3 +33,11 @@ document.getElementById("addNewItem").addEventListener("click",function(){
     newitem.appendChild(item)
     newitem.lastChild.textContent= "Brown Tea"
 })
+
+// Example 5
+document.getElementById("mainform").addEventListener("submit",function(event){
+    event.preventDefault()
+    let inputValue = document.getElementById("nameinput")
+    let changepara = document.getElementById("addValue")
+    changepara.textContent= `Name: ${inputValue.value}`
+})
